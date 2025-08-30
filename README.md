@@ -8,3 +8,7 @@ Step 1 - Install bleak:
 Coding:
 from bleak import BleakClient, BleakScanner, BLEDevice, BleakGATTCharacteristic, BleakError
 BleakScanner.discover()
+
+
+Current status: Not working
+Tried plenty of different devices (Mac, Raspberry), nevertheless I could never figure out which commands had to be sent, so it didn't work so far.
